@@ -29,7 +29,7 @@
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <TextBlock>
-                        <Hyperlink NavigateUri="{Binding Path=Url}">
+                        <Hyperlink NavigateUri="{Binding Path=Uri}">
                             <TextBlock Text="{Binding Path=Text}"/>
                         </Hyperlink>
                     </TextBlock>
